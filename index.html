@@ -10,13 +10,14 @@
     <h1>Javascript Conditional Statements</h1>
 
     <input type="text" id="Age" class="form-control" placeholder="type here...">
-    <button class="btn btn-info" onclick="checkAge()"></button>
+    <button class="btn btn-info" onclick="checkAge()">Check</button>
 
     <script>
         //checkage
         function checkAge(){
         
         var age = document.getElementsById("Age").value;
+
         if(isNan(age) || age is < 0){
             alert("Please input a valid number.");
             }
